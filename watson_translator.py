@@ -9,8 +9,7 @@ import json
 from watson_developer_cloud import LanguageTranslatorV3
 from watson_developer_cloud import WatsonApiException
 
-l = [{'name': 'Alice', 'age': 25, 'id': {'x': 2, 'y': 8}},
-     {'name': 'Bob', 'id': {'x': 10, 'y': 4}}]
+
 texts=['今日は晴れです','明日も雨です','最近はやりのEDM','私の名前はジャスティンビーバーです','あなたの名前はマーティンギャリックスです!']
 #api使うためのユーザ認証情報セット
 language_translator=LanguageTranslatorV3(
