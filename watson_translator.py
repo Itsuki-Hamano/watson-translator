@@ -14,8 +14,8 @@ texts=['今日は晴れです','明日も雨です','最近はやりのEDM','私
 #api使うためのユーザ認証情報セット
 language_translator=LanguageTranslatorV3(
         version='2018-10-27',
-        iam_apikey='Wwf5mwrlsNETHg4ij0jSDB9kQ-SOfJzpjWjfGyl7oLrj',
-        url='https://gateway.watsonplatform.net/language-translator/api'
+        iam_apikey='{各自入れてください}',
+        url='{各自入れてください}'
         )
 
 #エラー処理（apiが正常に呼び出せたか、HTTP応答コードを表示）
