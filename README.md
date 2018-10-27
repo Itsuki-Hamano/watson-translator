@@ -1,0 +1,1 @@
+# watson-translatorを動かしてみました
